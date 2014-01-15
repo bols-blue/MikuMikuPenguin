@@ -1,0 +1,15 @@
+Source: mikumikupenguin
+Section: unknown
+Priority: extra
+Maintainer: suehiro hisayoshi <bols-blue@lnc.jp>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev
+Standards-Version: 3.9.4
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/mikumikupenguin.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/mikumikupenguin.git;a=summary
+
+Package: mikumikupenguin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
